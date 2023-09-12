@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  background-color: #111111;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  margin: 0px;
+  color: white;
+}
+
+h2 {
+  margin: 0px;
+  color: white;
+}
+
+header {
+  margin-left: 10%;
+  margin-right: 10%;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  /* height: 60px; */
+  height: 10vh;
+}
+
+.contato {
+  padding: 8px 32px;
+  border-radius: 6px;
+  border: 2px solid #f0f8ff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#aboutMe:hover {
+  text-decoration: underline;
+}
+
+.contato:hover {
+  background-color: #f0f8ff;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.secao-principal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 500px;
+  align-items: center;
+}
+
+.identacaoSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 500px;
+  align-items: center;
+}
+
+.imagem-secao-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+
+#Linkedin:hover {
+  text-decoration: underline;
+}
