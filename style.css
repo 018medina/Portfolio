@@ -18,20 +18,21 @@ h2 {
   color: white;
 }
 
+p {
+  color: white;
+  max-width: 600px;
+  font-size: 18px;
+}
+
 header {
   margin-left: 10%;
   margin-right: 10%;
-  /* position: fixed;
-  top: 0;
-  left: 0; */
 }
 
-.nav {
+.cabecalho {
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   justify-content: space-between;
-  /* height: 60px; */
   height: 10vh;
 }
 
@@ -44,7 +45,11 @@ header {
   font-weight: 600;
 }
 
-#aboutMe:hover {
+.linkPage {
+  color: #76c2af;
+}
+
+.linkPage:hover {
   text-decoration: underline;
 }
 
@@ -54,7 +59,7 @@ header {
   color: black;
 }
 
-.secao-principal {
+.identacaoPadrao {
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
@@ -64,23 +69,74 @@ header {
   align-items: center;
 }
 
-.identacaoSection {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-height: 500px;
-  align-items: center;
-}
-
-.imagem-secao-principal {
+.imagemApresentacao {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 550px;
 }
 
+.habilidadesExperiencias {
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 #Linkedin:hover {
   text-decoration: underline;
+}
+
+.marginIcones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px 3rem;
+  font-size: inherit;
+}
+
+.pIcones {
+  color: white;
+  max-width: 150px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.identaIconesSkills {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-top: 2rem; */
+}
+
+/* Animação */
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime="down"] {
+  transform: translate3d(0, -100%, 0);
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, 100%, 0);
+}
+
+[data-anime="left"] {
+  transform: translate3d(-100%, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
