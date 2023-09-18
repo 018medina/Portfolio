@@ -29,6 +29,12 @@ header {
   margin-right: 10%;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .cabecalho {
   display: flex;
   align-items: center;
@@ -139,4 +145,20 @@ header {
 [data-anime].animate {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+.imgReconhecimentos {
+  max-width: 600px;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+.descritivoReconhecimento {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 50px;
 }
