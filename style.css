@@ -204,6 +204,15 @@ footer {
     margin-right: 0;
   }
 
+  body {
+    margin: 0px;
+    background-color: #111111;
+    font-family: "Bebas Neue", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   p {
     margin-top: 10px;
     margin-bottom: 0;
