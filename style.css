@@ -209,8 +209,8 @@ footer {
     background-color: #111111;
     font-family: "Bebas Neue", sans-serif;
     font-family: "Source Sans 3", sans-serif;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   p {
@@ -246,7 +246,7 @@ footer {
   .identacaoPadrao {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 0;
     margin-right: 0;
     max-height: 500px;
