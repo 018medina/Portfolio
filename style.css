@@ -198,7 +198,6 @@ footer {
   height: 70px;
 }
 
-/* @media screen and (min-width: 500px) and (max-width: 800px) { ... } */
 @media (width < 800px) {
   p {
     margin-top: 10px;
@@ -226,12 +225,19 @@ footer {
   .identacaoPadrao {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    max-height: 500px;
     margin-top: 5%;
     align-items: center;
   }
 
   .identacaoPadrao2 {
     display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    max-height: 500px;
     align-items: center;
     justify-content: center;
     margin-top: 12%;
